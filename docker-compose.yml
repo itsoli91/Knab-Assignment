@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  knab.exchange.api:
+    image: ${DOCKER_REGISTRY-}knabexchangeapi
+    build:
+      context: .
+      dockerfile: src/Services/Exchange/Knab.Exchange.Api/Dockerfile
+
+  knab.identity.api:
+    image: ${DOCKER_REGISTRY-}knabidentityapi
+    build:
+      context: .
+      dockerfile: src/Services/Identity/Knab.Identity.Api/Dockerfile
+
+  knab.exchange.ui:
+    image: ${DOCKER_REGISTRY-}knabexchangeui
+    build:
+      context: .
+      dockerfile: src/UI/Dockerfile
+
+
+volumes:
+  ui-data:

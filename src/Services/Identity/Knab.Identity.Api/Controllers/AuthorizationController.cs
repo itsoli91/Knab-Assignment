@@ -1,7 +1,7 @@
 ﻿using System.Security.Claims;
-using Knab.Identity.Api.Application;
-using Knab.Identity.Api.Application.Models.Authorization;
-using Knab.Identity.Api.Helper;
+using Knab.Identity.Api.Domain;
+using Knab.Identity.Api.Extensions;
+using Knab.Identity.Api.Models.Authorization;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;

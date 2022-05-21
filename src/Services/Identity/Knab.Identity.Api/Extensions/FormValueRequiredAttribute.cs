@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.Abstractions;
 using Microsoft.AspNetCore.Mvc.ActionConstraints;
 
-namespace Knab.Identity.Api.Helper;
+namespace Knab.Identity.Api.Extensions;
 
 public sealed class FormValueRequiredAttribute : ActionMethodSelectorAttribute
 {

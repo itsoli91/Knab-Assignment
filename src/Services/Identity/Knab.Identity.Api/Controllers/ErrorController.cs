@@ -1,4 +1,4 @@
-﻿using Knab.Identity.Api.Application.Models;
+﻿using Knab.Identity.Api.Models;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 

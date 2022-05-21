@@ -1,4 +1,4 @@
-﻿namespace Knab.Identity.Api.Helper;
+﻿namespace Knab.Identity.Api.Extensions;
 
 public static class AsyncEnumerableExtensions
 {

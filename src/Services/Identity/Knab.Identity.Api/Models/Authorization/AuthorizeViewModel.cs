@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Knab.Identity.Api.Application.Models.Authorization;
+namespace Knab.Identity.Api.Models.Authorization;
 
 public class AuthorizeViewModel
 {

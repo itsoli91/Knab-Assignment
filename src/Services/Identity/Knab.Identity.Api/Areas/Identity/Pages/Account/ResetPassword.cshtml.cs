@@ -5,7 +5,7 @@
 
 using System.ComponentModel.DataAnnotations;
 using System.Text;
-using Knab.Identity.Api.Application;
+using Knab.Identity.Api.Domain;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;

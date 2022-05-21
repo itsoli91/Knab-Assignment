@@ -1,5 +1,4 @@
-﻿using Knab.Identity.Api.Application;
-using Microsoft.AspNetCore.Identity;
+﻿using Knab.Identity.Api.Domain;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 

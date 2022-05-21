@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Knab.Identity.Api.Application.Models;
+namespace Knab.Identity.Api.Models;
 
 public class ErrorViewModel
 {

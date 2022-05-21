@@ -4,7 +4,7 @@
 #nullable disable
 
 using System.ComponentModel.DataAnnotations;
-using Knab.Identity.Api.Application;
+using Knab.Identity.Api.Domain;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;

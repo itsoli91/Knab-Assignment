@@ -1,4 +1,4 @@
-﻿using Knab.Identity.Api.Application;
+﻿using Knab.Identity.Api.Domain;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;

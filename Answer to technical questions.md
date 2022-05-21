@@ -18,6 +18,7 @@ I would  add these to my solution if I had time:
 * I'm using .Net Core's default memory cache to improve the overall performance of the system and help staying within the limits of the third-party API calls quota, but to enable the system to scale-out I would use a distributed cache. (e.g. Redis) if I could spend more time on the project.
 * I would add role-based access control (RBAC) to identity.
 * To handle business logic validations and errors, I'm throwing custom exceptions and then handling the exceptions by a Filter (HttpGlobalExceptionFilter) working on top of the whole system, to standardize the way errors are communicated with the clients. For now I'm using a common "GeneralApplicationException" class, derived from "IApplicationServiceException" interface for all business logic errors, but with more time I would not only segregate business logic exceptions types per layer (e.g. using IDomainException, IPresentationException, etc.) but also would define more granular exception classes and also exception codes.
+* I would add more documentation the the code.
 * I would also add a means of persisting the data fetched from the third party APIs (e.g. Database)
 * I would improve the UI.
 
